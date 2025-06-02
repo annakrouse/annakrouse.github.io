@@ -11,6 +11,7 @@ nav {
   background-color: #fff;
   padding: 1rem 0;
   text-align: center;
+  margin-top: 1.5rem; /* ← this adds space above the navbar */
 }
 
 nav ul {
