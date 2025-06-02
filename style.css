@@ -73,7 +73,7 @@ footer {
 }
 
 /* --- MAP IMAGE SCALING --- */
-.gtnp-map-preview img {
+.map-preview img {
   max-width: 100%;
   height: auto;
   border: 1px solid #ccc;
