@@ -6,11 +6,35 @@ body {
   color: #222;
 }
 
+/* NAVIGATION BAR */
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+}
+nav li {
+  margin: 0 1.2rem;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #0077cc;
+}
+
+/* HEADER */
 header {
   background: #fff;
   padding: 2rem;
   text-align: center;
-  border-bottom: 1px solid #ccc;
 }
 
 h1 {
@@ -25,25 +49,8 @@ main {
 }
 
 .about {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   font-size: 1.1rem;
-}
-
-.projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-}
-
-.project img {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ddd;
-}
-
-.project h3 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.2rem;
 }
 
 footer {
