@@ -83,3 +83,19 @@ footer {
   object-fit: contain;
 }
 
+/* --- GEOLOGY --- */
+.geology-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.geology-gallery img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
