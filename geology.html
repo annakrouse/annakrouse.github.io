@@ -1,91 +1,44 @@
-/* geology.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geology | Anna Krouse</title>
+  <link rel="stylesheet" href="geology.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#statistics">Statistics</a></li>
+      <li><a href="geology.html">Geology</a></li>
+      <li><a href="index.html#mapmaking">Mapmaking</a></li>
+    </ul>
+  </nav>
 
-body {
-  font-family: Georgia, serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f1ec;
-  color: #2e2b1f;
-}
+  <header>
+    <h1>Geology</h1>
+    <p>Middlebury Snowbowl Mapping Project</p>
+  </header>
 
-/* NAVIGATION BAR */
-nav {
-  background-color: #eae6dc;
-  padding: 1rem 0;
-  text-align: center;
-  margin-top: 1.5rem;
-}
+  <main>
+    <section>
+      <p>
+        I study the geology of the northeastern United States using field mapping, geochronology, and geochemistry.
+        My thesis focuses on the Middlebury Snowbowl — investigating whether the rocks are Grenvillian basement or
+        rift-related cover sequences.
+      </p>
 
-/* >>> ADD THIS CHUNK BELOW nav <<< */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-flex;
-  gap: 2rem;
-}
+      <div class="geology-gallery">
+        <img src="snowbowloutcrop.jpg" alt="Snowbowl Outcrop">
+        <img src="thinsection.jpg" alt="Thin Section">
+        <img src="geochemplot.jpg" alt="Geochemistry Plot">
+      </div>
+    </section>
+  </main>
 
-nav li {
-  margin: 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: #444;
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: lowercase;
-  letter-spacing: 1px;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #965a38;
-}
-
-/* HEADER */
-header {
-  background: #ddd4c6;
-  padding: 2rem;
-  text-align: center;
-}
-
-h1 {
-  font-size: 3rem;
-  margin: 0;
-  color: #5a4632;
-}
-
-/* MAIN CONTENT */
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 2rem;
-}
-
-.geology-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.geology-gallery img {
-  width: 250px;
-  height: auto;
-  border: 2px solid #999;
-  border-radius: 6px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #666;
-  border-top: 1px solid #ccc;
-  background: #eae6dc;
-}
-
+  <footer>
+    <p>© 2025 Anna Krouse | <a href="mailto:akrouse@middlebury.edu">Contact Me</a></p>
+  </footer>
+</body>
+</html>
