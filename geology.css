@@ -1,18 +1,20 @@
-/* General Page Styles */
+/* geology.css */
+
+/* BASE STYLES */
 body {
   font-family: Georgia, serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #222;
+  background: #f9f9f9; /* same as home */
+  color: #222;          /* same as home */
 }
 
 /* NAVIGATION BAR */
 nav {
-  background-color: #eae6dc;
+  background-color: #fff; /* same as home */
   padding: 1rem 0;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 nav ul {
@@ -29,7 +31,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #5a4632;
+  color: #444;
   font-size: 1rem;
   font-weight: 500;
   text-transform: lowercase;
@@ -38,75 +40,65 @@ nav a {
 }
 
 nav a:hover {
-  color: #965a38;
+  color: #007acc;
 }
 
-/* HEADER */
-header {
-  background: #ddd4c6;
-  padding: 2rem;
+/* HEADER — custom style but same palette */
+.geology-header {
+  background: #fff;
+  padding: 4rem 2rem;
   text-align: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 
-h1 {
-  font-size: 3rem;
-  margin: 0;
-  color: #5a4632;
+.header-box {
+  display: inline-block;
+  background: #f9f9f9;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-header p {
+.geology-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #007acc; /* highlight blue */
+}
+
+.geology-header p {
   font-size: 1.2rem;
-  margin-top: 0.5rem;
-  color: #7d6b52;
+  color: #555;
+  margin: 0;
 }
 
 /* MAIN CONTENT */
-.geology-main {
-  max-width: 1000px;
+main {
+  max-width: 900px;
   margin: auto;
   padding: 2rem;
 }
 
-.intro {
+.geology-intro {
   font-size: 1.1rem;
-  line-height: 1.6;
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
-/* GALLERY SECTION */
+/* GALLERY */
 .geology-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
   justify-content: center;
+  margin-top: 2rem;
 }
 
-.geocard {
-  background: #fefefe;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  width: 280px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  padding: 1rem;
-  transition: transform 0.2s ease;
-}
-
-.geocard:hover {
-  transform: translateY(-4px);
-}
-
-.geocard img {
-  max-width: 100%;
+.geology-gallery img {
+  width: 250px;
   height: auto;
-  border-radius: 6px;
-  margin-bottom: 0.75rem;
-}
-
-.geocard p {
-  font-size: 0.95rem;
-  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
 
 /* FOOTER */
@@ -116,7 +108,5 @@ footer {
   font-size: 0.9rem;
   color: #666;
   border-top: 1px solid #ccc;
-  background: #eae6dc;
-  margin-top: 2rem;
+  background: #fff;
 }
-
