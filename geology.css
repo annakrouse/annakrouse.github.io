@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geology | Anna Krouse</title>
+  <link rel="stylesheet" href="geology.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#statistics">Statistics</a></li>
+      <li><a href="geology.html">Geology</a></li>
+      <li><a href="index.html#mapmaking">Mapmaking</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Geology</h1>
+    <p>Middlebury Snowbowl Mapping Project</p>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        I study the geology of the northeastern United States using field mapping, geochronology, and geochemistry.
+        My thesis focuses on the Middlebury Snowbowl — investigating whether the rocks are Grenvillian basement or
+        rift-related cover sequences.
+      </p>
+
+      <div class="geology-gallery">
+        <img src="snowbowloutcrop.jpg" alt="Snowbowl Outcrop">
+        <img src="thinsection.jpg" alt="Thin Section">
+        <img src="geochemplot.jpg" alt="Geochemistry Plot">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Anna Krouse | <a href="mailto:akrouse@middlebury.edu">Contact Me</a></p>
+  </footer>
+</body>
+</html>
